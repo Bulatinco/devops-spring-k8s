@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   app:
-    image: app
+    image: ghcr.io/coursar/devops-java-k8s/webapp
     build: .
     ports:
       - "8080:8080"
