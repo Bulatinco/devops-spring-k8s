@@ -17,7 +17,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: openssl enc -d -aes256 -pbkdf2 -pass pass:${{ secrets.DECRYPT_PASS}} -in Dockerfile.enc -out Dockerfile
       - uses: docker/build-push-action@v1
         with:
           username: ${{ github.actor }}
