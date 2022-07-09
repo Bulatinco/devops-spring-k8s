@@ -23,3 +23,4 @@ curl --insecure -X POST -H "Content-Type: image/png" -u admin:secret --data-bina
 ```shell
 curl --insecure https://localhost:8080/<url>
 ```
+
