@@ -7,7 +7,7 @@ RUN mvn -B package
 FROM openjdk:17-slim
 WORKDIR /app
 COPY --from=build /app/target/app.jar .
-CMD ["java", "-jar", "app.ja"]
+CMD ["java", "-jar", "app.jar"]
 EXPOSE 8080
 
 # Внутри /app/config -> /application-confg
