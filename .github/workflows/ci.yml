@@ -13,7 +13,7 @@ jobs:
       packages: write
     env:
       GHCR_REGISTRY: ghcr.io
-      IMAGE: ghcr.io/Bulatinco/devops-spring-k8s/webapp
+      IMAGE: ghcr.io/bulatinco/devops-spring-k8s
 
     steps:
       - uses: actions/checkout@v2
