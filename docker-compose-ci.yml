@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   app:
-    image: ghcr.io/coursar/devops-spring-k8s/webapp
+    image: app
     build: .
     ports:
       - "8080:8080"
